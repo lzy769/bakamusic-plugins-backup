@@ -1,0 +1,22 @@
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时 / 备份文件（从原插件目录复制时已剔除，这里防止再次误入）
+*.tmp
+*.bak
+*.backup-*
+*.perf-backup-*
+*.integrity.json
+__probe_native.tmp
+
+# Node（插件运行时依赖，不提交）
+node_modules/
